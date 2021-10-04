@@ -8,7 +8,7 @@ export default function Home() {
       </Head>
 
       <h1>
-        Hello <span>World</span>
+        Hello <span>World IgNews</span>
       </h1>
     </>
   )
