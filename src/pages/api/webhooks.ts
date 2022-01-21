@@ -58,7 +58,7 @@ const webhooksFunc = async (req: NextApiRequest, res: NextApiResponse) => {
             await saveSubscription(
               subscription.id,
               subscription.customer.toString(),
-              true,
+              false,
               // type === 'customer.subscription.create',
             )
 
