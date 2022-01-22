@@ -95,14 +95,4 @@ export default webhooksFunc;
 
 
 
-
-
-
-
-
-
-
-
-
-
 // yarn stripe listen --forward-to localhost:3005/api/webhooks
