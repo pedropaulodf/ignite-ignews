@@ -1,9 +1,9 @@
-# :desktop_computer: ig.news
+# :desktop_computer: Ig.News
 
 
 ### Projeto criado no treinamento Ignite da Rocketseat
 
-ig.news é o terceiro projeto criado no chapter 3 da trilha de React do Ignite da Rocketseat. O projeto consiste num blog onde para ler algum psoto você deverá ser assinante, e é usado a API do Stripe para o controle de pagamento e salvando os dados dos inscritos no FaunaDB.
+Ig.News é o terceiro projeto criado no chapter 3 da trilha de React do Ignite da Rocketseat. O projeto consiste num blog onde para ler algum psoto você deverá ser assinante, e é usado a API do Stripe para o controle de pagamento e salvando os dados dos inscritos no FaunaDB.
 
 Ver projetos:  
 
