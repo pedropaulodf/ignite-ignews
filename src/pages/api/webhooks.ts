@@ -20,14 +20,14 @@ export const config = {
   }
 }
 
+// 'customer.subscription.create',
 const relevantEvents = new Set([
   'checkout.session.completed',
-  // 'customer.subscription.create',
   'customer.subscription.updated',
   'customer.subscription.deleted',
 ])
 
-const webhooksFunc = async (req: NextApiRequest, res: NextApiResponse) => {
+export default async function webhooksFunc(req: NextApiRequest, res: NextApiResponse){
   if(req.method === 'POST') {
 
     const buf = await buffer(req);
@@ -59,8 +59,8 @@ const webhooksFunc = async (req: NextApiRequest, res: NextApiResponse) => {
               subscription.id,
               subscription.customer.toString(),
               false,
+              )
               // type === 'customer.subscription.create',
-            )
 
             break;
           case 'checkout.session.completed':
@@ -81,7 +81,7 @@ const webhooksFunc = async (req: NextApiRequest, res: NextApiResponse) => {
         return res.json({error: 'Webhook handler failed.'});
       }
 
-      console.log('Evento recebido', event)
+      // console.log('Evento recebido', event)
     }
 
     res.json({ received: true });
@@ -90,9 +90,6 @@ const webhooksFunc = async (req: NextApiRequest, res: NextApiResponse) => {
     res.status(405).end("Method not allowed");
   }
 }
-
-export default webhooksFunc;
-
 
 
 // yarn stripe listen --forward-to localhost:3005/api/webhooks
