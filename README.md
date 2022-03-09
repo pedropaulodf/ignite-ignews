@@ -1,7 +1,7 @@
 # 👋 Ig.News
 
 <p align="center">
-  <img alt="Tabela responsiva" src=".github/img.jpg" width="100%">
+  <img alt="Print do projeto" src=".github/img.jpg" width="100%">
 </p>
 
 ### Projeto criado no treinamento Ignite da Rocketseat
