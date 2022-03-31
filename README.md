@@ -1,5 +1,8 @@
-# :desktop_computer: Ig.News
+# 👋 Ig.News
 
+<p align="center">
+  <img alt="Print do projeto" src=".github/img.jpg" width="100%">
+</p>
 
 ### Projeto criado no treinamento Ignite da Rocketseat
 
@@ -11,12 +14,12 @@ Ver projetos:
 [<img src="https://img.shields.io/badge/Vercel-000000?style=for-the-badge&logo=vercel&logoColor=white">](https://ignews-pedropaulodf.vercel.app/)
 
 ## :rocket: Tecnologias
-- ReactJS
-- NextJS
-- TypeScript
-- SASS
-- Next-Auth
-- Stripe
-- Stripe CLI
-- FaunaDB
-- Prismic CMS
+- [x] ReactJS
+- [x] NextJS
+- [x] TypeScript
+- [x] SASS
+- [x] Next-Auth
+- [x] Stripe
+- [x] Stripe CLI
+- [x] FaunaDB
+- [x] Prismic CMS
