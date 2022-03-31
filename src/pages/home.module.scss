@@ -43,5 +43,17 @@
   button {
     margin-top: 2.5rem;
   }
+}
 
+@media (max-width: 800px) {
+  .contentContainer {
+    img {
+      display: none;
+    }
+  }
+  .hero {
+    h1 {
+      font-size: 3.5rem;
+    }
+  }
 }
