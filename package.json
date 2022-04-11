@@ -3,10 +3,11 @@
   "version": "0.1.0",
   "private": true,
   "scripts": {
-    "dev": "next dev",
+    "dev": "next dev -p 3005",
     "build": "next build",
     "start": "next start",
     "lint": "next lint",
+    "test": "jest",
     "stripe": "./stripe"
   },
   "dependencies": {
@@ -25,10 +26,16 @@
     "stripe": "^8.195.0"
   },
   "devDependencies": {
+    "@testing-library/dom": "^8.13.0",
+    "@testing-library/jest-dom": "^5.16.4",
+    "@testing-library/react": "^13.0.0",
     "@types/node": "^16.10.2",
     "@types/react": "^17.0.27",
+    "babel-jest": "^27.5.1",
     "eslint": "7.32.0",
     "eslint-config-next": "11.1.2",
+    "jest": "^27.5.1",
+    "jest-dom": "^4.0.0",
     "typescript": "^4.4.3"
   }
 }
