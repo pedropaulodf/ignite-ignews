@@ -16,9 +16,6 @@ export default function ActiveLink({children, activeClassName, ...rest}: ActiveL
   ? activeClassName
   : '';
 
-  console.log("asPath:",asPath);
-  console.log("rest.href:",rest.href);
-
   return (
     <Link {...rest}>
       {cloneElement(children, {
